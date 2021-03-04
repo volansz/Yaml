@@ -4,5 +4,5 @@ payload:
   # 域名后缀匹配 【  - DOMAIN-SUFFIX,zoom.us】
   # 域名关键字匹配 【  - DOMAIN-KEYWORD,.pinterest.】【可以包含点】
   # ip地址匹配 【  - IP-CIDR,103.2.30.0/23,no-resolve】【no-resolve，告诉 clash 不要去尝试解析来匹配这条规则，只处理「直接 IP 访问」的请求。】
-  - IP-CIDR,192.168.0.0/16
+  - DOMAIN-SUFFIX,ipinfo.io
   

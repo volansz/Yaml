@@ -12,6 +12,9 @@ payload:
   - IP-CIDR,194.49.112.150/32,no-resolve
   - IP-CIDR,45.148.131.179/32,no-resolve
   - IP-CIDR,164.155.37.208/32,no-resolve
+  # > 谷歌APK下载
+  - DOMAIN-SUFFIX,down-apk.com
+  # > 杀毒软件
   - DOMAIN-SUFFIX,avcdn.net
   - DOMAIN-SUFFIX,l.google.com
   - DOMAIN-SUFFIX,mega.nz
@@ -36,7 +39,6 @@ payload:
   - DOMAIN-KEYWORD,l.google.
   - IP-CIDR,51.79.0.0/16
   - DOMAIN-KEYWORD,voice.telephony
-  - DOMAIN-SUFFIX,.goog
   - DOMAIN-SUFFIX,tlanyan.me
   - DOMAIN-KEYWORD,tlanyan
   - DOMAIN-KEYWORD,v2fly
@@ -99,4 +101,3 @@ payload:
   - DOMAIN-KEYWORD,tlcikjv
   - DOMAIN-KEYWORD,mediaserf
   - DOMAIN-KEYWORD,aishangyou
-  
