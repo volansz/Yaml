@@ -16,6 +16,8 @@ payload:
   - DOMAIN-SUFFIX,down-apk.com
   # > 杀毒软件
   - DOMAIN-SUFFIX,avcdn.net
+  # > 其他
+  - DOMAIN-SUFFIX,nuclearsecrecy.com
   - DOMAIN-SUFFIX,l.google.com
   - DOMAIN-SUFFIX,mega.nz
   - DOMAIN-SUFFIX,gdaily.org
