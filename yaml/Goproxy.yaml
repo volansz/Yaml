@@ -5,9 +5,9 @@ payload:
   # 域名关键字匹配 【  - DOMAIN-KEYWORD,.pinterest.】【可以包含点】
   # ip地址匹配 【  - IP-CIDR,103.2.30.0/23,no-resolve】【no-resolve，告诉 clash 不要去尝试解析来匹配这条规则，只处理「直接 IP 访问」的请求。】
   - DOMAIN-KEYWORD,google
-  - IP-CIDR,216.0.0.0/8
-  - IP-CIDR,192.30.255.0/8
-  - IP-CIDR,162.159.36.0/16
+  - IP-CIDR,216.0.0.0/8,no-resolve
+  - IP-CIDR,192.30.255.0/8,no-resolve
+  - IP-CIDR,162.159.36.0/16,no-resolve
   # > SEO-Servers
   - IP-CIDR,194.49.112.150/32,no-resolve
   - IP-CIDR,45.148.131.179/32,no-resolve
@@ -17,92 +17,89 @@ payload:
   # > 杀毒软件
   - DOMAIN-SUFFIX,avcdn.net
   # > 其他
-  - DOMAIN-SUFFIX,v2raytech.com
-  - DOMAIN-SUFFIX,mobile01.com
-  - DOMAIN-SUFFIX,nuclearsecrecy.com
-  - DOMAIN-SUFFIX,l.google.com
-  - DOMAIN-SUFFIX,mega.nz
-  - DOMAIN-SUFFIX,gdaily.org
-  - DOMAIN-SUFFIX,edxp.meowcat.org
-  - DOMAIN-KEYWORD,xposed
-  - DOMAIN-SUFFIX,xposed.info
+  - IP-CIDR,104.16.0.0/12,no-resolve
+  - IP-CIDR,172.217.0.0/16,no-resolve
+  - IP-CIDR,34.87.72.0/24,no-resolve
+  - IP-CIDR,51.79.0.0/16,no-resolve
+  - DOMAIN-KEYWORD,64clouds
+  - DOMAIN-KEYWORD,aishangyou
   - DOMAIN-KEYWORD,appcenter
   - DOMAIN-KEYWORD,appveyor
-  - DOMAIN-KEYWORD,miuier
   - DOMAIN-KEYWORD,avast
-  - IP-CIDR,104.16.0.0/12
-  - IP-CIDR,34.87.72.0/24
-  - DOMAIN-KEYWORD,histats
-  - DOMAIN-KEYWORD,cloudproxy
-  - DOMAIN-KEYWORD,64clouds
-  - DOMAIN-SUFFIX,64clouds.com
-  - DOMAIN-KEYWORD,bwh88
-  - DOMAIN-KEYWORD,banwagongs
-  - IP-CIDR,172.217.0.0/16
-  - DOMAIN,l.google.com
-  - DOMAIN-KEYWORD,l.google.
-  - IP-CIDR,51.79.0.0/16
-  - DOMAIN-KEYWORD,voice.telephony
-  - DOMAIN-SUFFIX,tlanyan.me
-  - DOMAIN-KEYWORD,tlanyan
-  - DOMAIN-KEYWORD,v2fly
-  - DOMAIN-KEYWORD,v2rayssr
-  - DOMAIN-SUFFIX,v2rayssr.com
-  - DOMAIN,www.v2rayssr.com
-  - DOMAIN-KEYWORD,minitw
-  - DOMAIN-KEYWORD,stackoverflow
-  - DOMAIN-KEYWORD,telegramcn
-  - DOMAIN-KEYWORD,montalvo
-  - DOMAIN-KEYWORD,codepre
-  - DOMAIN-KEYWORD,h-cdn
-  - DOMAIN-KEYWORD,sentris
-  - DOMAIN-KEYWORD,noip
-  - DOMAIN-KEYWORD,rdtcdn
-  - DOMAIN-KEYWORD,ubuntu
-  - DOMAIN-KEYWORD,rocket
-  - DOMAIN-KEYWORD,v2tun
-  - DOMAIN-KEYWORD,cdntrex
   - DOMAIN-KEYWORD,awemdia
-  - DOMAIN-KEYWORD,xxxfiles
-  - DOMAIN-KEYWORD,porntrex
-  - DOMAIN-KEYWORD,kaiyuan
-  - DOMAIN-KEYWORD,zhs
-  - DOMAIN-SUFFIX,zhs.tw
-  - DOMAIN-SUFFIX,zhs.today
-  - DOMAIN-SUFFIX,zhshi.gitlab.io
-  - DOMAIN-KEYWORD,xvideos-cdn
-  - DOMAIN-KEYWORD,githubusercontent
+  - DOMAIN-KEYWORD,banwagongs
+  - DOMAIN-KEYWORD,bwh88
+  - DOMAIN-KEYWORD,cdntrex
+  - DOMAIN-KEYWORD,cloudproxy
+  - DOMAIN-KEYWORD,codepre
   - DOMAIN-KEYWORD,electry
   - DOMAIN-KEYWORD,freeok
+  - DOMAIN-KEYWORD,githubusercontent
+  - DOMAIN-KEYWORD,h-cdn
+  - DOMAIN-KEYWORD,histats
   - DOMAIN-KEYWORD,iplc
-  - DOMAIN-SUFFIX,bit.ly
-  - DOMAIN-SUFFIX,xiaomi.eu
-  - DOMAIN-SUFFIX,xdown.org
-  - DOMAIN-SUFFIX,openwrt.org
-  - DOMAIN-SUFFIX,ui.com
-  - DOMAIN-SUFFIX,feedsanywhere.com
-  - DOMAIN-SUFFIX,paofu.cloud
-  - DOMAIN-SUFFIX,91porn.com
-  - DOMAIN-SUFFIX,graphicburger.com
-  - DOMAIN-SUFFIX,sehuatang.org
-  - DOMAIN-SUFFIX,upstream.to
-  - DOMAIN-SUFFIX,apkcombo.com
-  - DOMAIN-SUFFIX,kknews.cc
-  - DOMAIN-SUFFIX,timegate.vip
-  - DOMAIN-SUFFIX,dnvodcdn.me
-  - DOMAIN-SUFFIX,ifun.tv
-  - DOMAIN-SUFFIX,asus.com
-  - DOMAIN-SUFFIX,jkforum.net
-  - DOMAIN-SUFFIX,mymypic.net
+  - DOMAIN-KEYWORD,kaiyuan
+  - DOMAIN-KEYWORD,l.google.
+  - DOMAIN-KEYWORD,mediaserf
+  - DOMAIN-KEYWORD,minitw
+  - DOMAIN-KEYWORD,miuier
+  - DOMAIN-KEYWORD,montalvo
+  - DOMAIN-KEYWORD,moppie91
+  - DOMAIN-KEYWORD,mousegesturesapi
+  - DOMAIN-KEYWORD,noip
+  - DOMAIN-KEYWORD,porntrex
+  - DOMAIN-KEYWORD,rdtcdn
+  - DOMAIN-KEYWORD,rocket
+  - DOMAIN-KEYWORD,savefr
+  - DOMAIN-KEYWORD,sentris
+  - DOMAIN-KEYWORD,stackoverflow
+  - DOMAIN-KEYWORD,telegramcn
+  - DOMAIN-KEYWORD,tlanyan
+  - DOMAIN-KEYWORD,tlcikjv
+  - DOMAIN-KEYWORD,ubuntu
+  - DOMAIN-KEYWORD,v2fly
+  - DOMAIN-KEYWORD,v2rayssr
+  - DOMAIN-KEYWORD,v2tun
+  - DOMAIN-KEYWORD,voice.telephony
+  - DOMAIN-KEYWORD,xposed
+  - DOMAIN-KEYWORD,xvideos-cdn
+  - DOMAIN-KEYWORD,xxxfiles
+  - DOMAIN-SUFFIX,64clouds.com
   - DOMAIN-SUFFIX,6vhao.com
+  - DOMAIN-SUFFIX,91porn.com
+  - DOMAIN-SUFFIX,anylinks.me
+  - DOMAIN-SUFFIX,apkcombo.com
+  - DOMAIN-SUFFIX,asus.com
+  - DOMAIN-SUFFIX,bit.ly
+  - DOMAIN-SUFFIX,dash.blinkload.zone
+  - DOMAIN-SUFFIX,dnvodcdn.me
+  - DOMAIN-SUFFIX,edxp.meowcat.org
+  - DOMAIN-SUFFIX,feedsanywhere.com
+  - DOMAIN-SUFFIX,gdaily.org
+  - DOMAIN-SUFFIX,graphicburger.com
   - DOMAIN-SUFFIX,hao6v.com
   - DOMAIN-SUFFIX,hket.com
+  - DOMAIN-SUFFIX,ifun.tv
+  - DOMAIN-SUFFIX,jkforum.net
+  - DOMAIN-SUFFIX,kknews.cc
+  - DOMAIN-SUFFIX,l.google.com
+  - DOMAIN-SUFFIX,mega.nz
+  - DOMAIN-SUFFIX,mobile01.com
+  - DOMAIN-SUFFIX,mymypic.net
+  - DOMAIN-SUFFIX,nuclearsecrecy.com
+  - DOMAIN-SUFFIX,openwrt.org
+  - DOMAIN-SUFFIX,paofu.cloud
   - DOMAIN-SUFFIX,python.org
-  - DOMAIN-SUFFIX,anylinks.me
-  - DOMAIN-SUFFIX,dash.blinkload.zone
-  - DOMAIN-KEYWORD,mousegesturesapi
-  - DOMAIN-KEYWORD,savefr
-  - DOMAIN-KEYWORD,moppie91
-  - DOMAIN-KEYWORD,tlcikjv
-  - DOMAIN-KEYWORD,mediaserf
-  - DOMAIN-KEYWORD,aishangyou
+  - DOMAIN-SUFFIX,sehuatang.org
+  - DOMAIN-SUFFIX,timegate.vip
+  - DOMAIN-SUFFIX,tlanyan.me
+  - DOMAIN-SUFFIX,ui.com
+  - DOMAIN-SUFFIX,upstream.to
+  - DOMAIN-SUFFIX,v2rayssr.com
+  - DOMAIN-SUFFIX,v2raytech.com
+  - DOMAIN-SUFFIX,xdown.org
+  - DOMAIN-SUFFIX,xiaomi.eu
+  - DOMAIN-SUFFIX,xposed.info
+  - DOMAIN-SUFFIX,zhs.today
+  - DOMAIN-SUFFIX,zhs.tw
+  - DOMAIN-SUFFIX,zhshi.gitlab.io
