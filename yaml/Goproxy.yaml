@@ -17,6 +17,7 @@ payload:
   # > 杀毒软件
   - DOMAIN-SUFFIX,avcdn.net
   # > 其他
+  - DOMAIN-SUFFIX,v2raytech.com
   - DOMAIN-SUFFIX,mobile01.com
   - DOMAIN-SUFFIX,nuclearsecrecy.com
   - DOMAIN-SUFFIX,l.google.com
