@@ -16,6 +16,7 @@ payload:
   - DOMAIN-SUFFIX,down-apk.com
   # > 杀毒软件
   - DOMAIN-SUFFIX,avcdn.net
+  - DOMAIN-KEYWORD,avatar
   # > 其他
   - IP-CIDR,104.16.0.0/12,no-resolve
   - IP-CIDR,172.217.0.0/16,no-resolve
