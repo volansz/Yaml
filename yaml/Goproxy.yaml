@@ -22,6 +22,7 @@ payload:
   - IP-CIDR,172.217.0.0/16,no-resolve
   - IP-CIDR,34.87.72.0/24,no-resolve
   - IP-CIDR,51.79.0.0/16,no-resolve
+  - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-KEYWORD,64clouds
   - DOMAIN-KEYWORD,aishangyou
   - DOMAIN-KEYWORD,appcenter
