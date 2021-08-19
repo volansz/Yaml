@@ -20,6 +20,7 @@ payload:
   # > Gboard输入法表情
   - DOMAIN-SUFFIX,tenor.com
   # > 其他
+  - DOMAIN-SUFFIX,apk4fun.com
   - DOMAIN-KEYWORD,gugeys
   - IP-CIDR,104.16.0.0/12,no-resolve
   - IP-CIDR,172.217.0.0/16,no-resolve
