@@ -20,6 +20,9 @@ payload:
   # > Gboard输入法表情
   - DOMAIN-SUFFIX,tenor.com
   # > 其他
+  - DOMAIN-SUFFIX,proxmox.com
+  - DOMAIN-SUFFIX,debian.org
+  - DOMAIN-SUFFIX,gitmemory.com
   - DOMAIN-SUFFIX,apk4fun.com
   - DOMAIN-KEYWORD,gugeys
   - IP-CIDR,104.16.0.0/12,no-resolve
@@ -72,7 +75,8 @@ payload:
   - DOMAIN-KEYWORD,xvideos-cdn
   - DOMAIN-KEYWORD,xxxfiles
   - DOMAIN-SUFFIX,64clouds.com
-  - DOMAIN-SUFFIX,6vhao.com
+  - DOMAIN-KEYWORD,6vhao
+  - DOMAIN-KEYWORD,hao6v
   - DOMAIN-SUFFIX,91porn.com
   - DOMAIN-SUFFIX,anylinks.me
   - DOMAIN-SUFFIX,apkcombo.com

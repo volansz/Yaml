@@ -10,3 +10,4 @@ payload:
   - DOMAIN-SUFFIX,ident.me
   - DOMAIN-SUFFIX,ip.sb
   - DOMAIN-SUFFIX,v4.ident.me
+  - DOMAIN-KEYWORD,sakurabakiyoka
